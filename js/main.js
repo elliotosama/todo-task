@@ -1,7 +1,5 @@
-// Initialize tasks from localStorage or set to an empty array
 let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
-// Elements for DOM manipulation
 const taskInput = document.getElementById('task-input');
 const tasksContainer = document.querySelector('.tasks');
 const itemsLeftSpan = document.getElementById('items-left');
